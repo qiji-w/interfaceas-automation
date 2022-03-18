@@ -1,0 +1,12 @@
+#日志配置文件 - 生产环境（控制台没有日志打印）
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: logs/
+  # 指定mapper目录下，日志为debug级别 - 这样可以查看到具体sql信息
+  level:
+    com:
+      lemon:
+        test:
+          iat:
+          mapper: debug

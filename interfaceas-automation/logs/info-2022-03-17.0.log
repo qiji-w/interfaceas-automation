@@ -1,0 +1,218 @@
+2022-03-17 23:52:07.391 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.3) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v2.7.3) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2022-03-17 23:52:07.395 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2022-03-17 23:52:07.430 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-03-17 23:52:07.477 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Starting InterfaceAutomationTestApplication using Java 1.8.0_212 on DESKTOP-AAE2JII with PID 25692 (E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test\target\classes started by 奇迹 in E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test)
+2022-03-17 23:52:07.479 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - The following profiles are active: dev
+2022-03-17 23:52:09.034 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2022-03-17 23:52:09.036 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2022-03-17 23:52:09.179 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 23:52:09.182 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 23:52:09.210 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-03-17 23:52:09.449 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$23bc2ed0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:52:09.507 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$4d3be886] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:52:09.561 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$b47653a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:52:09.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:52:09.779 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-03-17 23:52:09.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:52:09.786 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-17 23:52:09.786 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-17 23:52:09.787 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-17 23:52:09.788 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-03-17 23:52:09.788 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-17 23:52:09.791 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-03-17 23:52:09.876 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-17 23:52:09.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2165 ms
+2022-03-17 23:52:10.736 [main] INFO  o.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2022-03-17 23:52:10.737 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-03-17 23:52:10.756 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-17 23:54:50.335 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.3) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v2.7.3) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2022-03-17 23:54:50.339 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2022-03-17 23:54:50.364 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-03-17 23:54:50.396 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Starting InterfaceAutomationTestApplication using Java 1.8.0_212 on DESKTOP-AAE2JII with PID 30160 (E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test\target\classes started by 奇迹 in E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test)
+2022-03-17 23:54:50.397 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - The following profiles are active: dev
+2022-03-17 23:54:51.589 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2022-03-17 23:54:51.590 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2022-03-17 23:54:51.719 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 23:54:51.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 23:54:51.744 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-03-17 23:54:51.963 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$87f14828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:54:52.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$b17101de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:54:52.081 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$18ab6cf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:54:52.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:54:52.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-03-17 23:54:52.289 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:54:52.289 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-17 23:54:52.290 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-17 23:54:52.291 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-17 23:54:52.291 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-03-17 23:54:52.291 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-17 23:54:52.293 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-03-17 23:54:52.375 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-17 23:54:52.375 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1807 ms
+2022-03-17 23:54:53.068 [main] INFO  o.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2022-03-17 23:54:53.069 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-03-17 23:54:53.087 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-17 23:55:31.241 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-03-17 23:55:31.241 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Starting InterfaceAutomationTestApplication using Java 1.8.0_212 on DESKTOP-AAE2JII with PID 11268 (E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test\target\classes started by 奇迹 in E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test)
+2022-03-17 23:55:31.243 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - The following profiles are active: dev
+2022-03-17 23:55:32.541 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 23:55:32.542 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 23:55:32.563 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-03-17 23:55:32.786 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$4bb40a46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:55:32.949 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-03-17 23:55:32.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:55:32.954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-17 23:55:32.954 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-17 23:55:32.955 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-17 23:55:32.956 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-03-17 23:55:32.956 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-17 23:55:32.958 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-03-17 23:55:33.027 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-17 23:55:33.027 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1598 ms
+2022-03-17 23:55:33.322 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-03-17 23:55:33.336 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-17 23:58:43.674 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.3) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v2.7.3) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2022-03-17 23:58:43.677 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2022-03-17 23:58:43.705 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-03-17 23:58:43.734 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Starting InterfaceAutomationTestApplication using Java 1.8.0_212 on DESKTOP-AAE2JII with PID 41748 (E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test\target\classes started by 奇迹 in E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test)
+2022-03-17 23:58:43.735 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - The following profiles are active: dev
+2022-03-17 23:58:45.057 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2022-03-17 23:58:45.058 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2022-03-17 23:58:45.184 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 23:58:45.185 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 23:58:45.211 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-03-17 23:58:45.504 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$87f14828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:58:45.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$b17101de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:58:45.659 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$18ab6cf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:58:45.669 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:58:45.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-03-17 23:58:45.923 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:58:45.923 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-17 23:58:45.923 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-17 23:58:45.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-17 23:58:45.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-03-17 23:58:45.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-17 23:58:45.926 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-03-17 23:58:46.004 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-17 23:58:46.004 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2073 ms
+2022-03-17 23:58:47.065 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-03-17 23:58:47.184 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-03-17 23:58:48.540 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-17 23:58:50.981 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-03-17 23:58:51.102 [main] INFO  o.a.d.c.s.b.f.a.ReferenceAnnotationBeanPostProcessor - class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+2022-03-17 23:58:51.104 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-03-17 23:58:51.117 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-17 23:59:15.771 [main] INFO  o.a.d.s.b.c.event.WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v2.7.3) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v2.7.3) : https://github.com/apache/incubator-dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+2022-03-17 23:59:15.775 [main] INFO  o.a.d.s.b.c.e.OverrideDubboConfigApplicationListener - Dubbo Config was overridden by externalized configuration {dubbo.application.qos-enable=false, dubbo.config.multiple=true}
+2022-03-17 23:59:15.808 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-03-17 23:59:15.832 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Starting InterfaceAutomationTestApplication using Java 1.8.0_212 on DESKTOP-AAE2JII with PID 48384 (E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test\target\classes started by 奇迹 in E:\1.1笔记集结\000000JAVA知识点全解\JavaSE所需资料\笔记（更新中，不缺的跟助教要一下）\000完整项目参考\接口自动化项目\GitHub用的项目\interface-automation-test)
+2022-03-17 23:59:15.833 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - The following profiles are active: dev
+2022-03-17 23:59:16.758 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
+2022-03-17 23:59:16.759 [main] INFO  o.a.d.c.s.c.annotation.DubboConfigBindingRegistrar - The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
+2022-03-17 23:59:16.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-17 23:59:16.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-17 23:59:16.927 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-03-17 23:59:17.158 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$87f14828] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:59:17.216 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [RedisConfig$$EnhancerBySpringCGLIB$$b17101de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:59:17.272 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' of type [org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration$$EnhancerBySpringCGLIB$$18ab6cf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:59:17.277 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-17 23:59:17.467 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-03-17 23:59:17.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:59:17.473 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-17 23:59:17.473 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-03-17 23:59:17.474 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-03-17 23:59:17.474 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-03-17 23:59:17.474 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-03-17 23:59:17.476 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-03-17 23:59:17.555 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-03-17 23:59:17.556 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1512 ms
+2022-03-17 23:59:18.601 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-03-17 23:59:18.713 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-03-17 23:59:20.155 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-03-17 23:59:20.651 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-17 23:59:20.973 [main] INFO  o.a.d.c.s.b.f.a.DubboConfigBindingBeanPostProcessor - The properties of bean [name : org.apache.dubbo.config.ApplicationConfig#0] have been binding by prefix of configuration properties : dubbo.application
+2022-03-17 23:59:21.323 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-03-17 23:59:21.332 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-03-17 23:59:21.332 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-03-17 23:59:21.346 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-03-17 23:59:21.381 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-03-17 23:59:21.482 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_1
+2022-03-17 23:59:21.483 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_1
+2022-03-17 23:59:21.484 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2022-03-17 23:59:21.492 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_1
+2022-03-17 23:59:21.496 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2022-03-17 23:59:21.502 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_2
+2022-03-17 23:59:21.503 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_2
+2022-03-17 23:59:21.504 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_2
+2022-03-17 23:59:21.509 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2022-03-17 23:59:21.514 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_3
+2022-03-17 23:59:21.515 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_3
+2022-03-17 23:59:21.516 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_3
+2022-03-17 23:59:21.519 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryUsingGET_1
+2022-03-17 23:59:21.520 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_2
+2022-03-17 23:59:21.522 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2022-03-17 23:59:21.528 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_4
+2022-03-17 23:59:21.529 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_4
+2022-03-17 23:59:21.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_4
+2022-03-17 23:59:21.535 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2022-03-17 23:59:21.544 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_5
+2022-03-17 23:59:21.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_5
+2022-03-17 23:59:21.546 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_5
+2022-03-17 23:59:21.552 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryUsingGET_2
+2022-03-17 23:59:21.554 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_3
+2022-03-17 23:59:21.564 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2022-03-17 23:59:21.570 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_6
+2022-03-17 23:59:21.571 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_6
+2022-03-17 23:59:21.572 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_6
+2022-03-17 23:59:21.575 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryUsingGET_3
+2022-03-17 23:59:21.576 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_4
+2022-03-17 23:59:21.584 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: runUsingPOST_1
+2022-03-17 23:59:21.588 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_6
+2022-03-17 23:59:21.593 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_7
+2022-03-17 23:59:21.597 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryUsingGET_4
+2022-03-17 23:59:21.598 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_5
+2022-03-17 23:59:21.601 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_8
+2022-03-17 23:59:21.605 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_7
+2022-03-17 23:59:21.606 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_7
+2022-03-17 23:59:21.607 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_9
+2022-03-17 23:59:21.608 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryByProjectIdUsingGET_6
+2022-03-17 23:59:21.610 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_7
+2022-03-17 23:59:21.614 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: createUsingPOST_8
+2022-03-17 23:59:21.615 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingDELETE_8
+2022-03-17 23:59:21.616 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_10
+2022-03-17 23:59:21.618 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryUsingGET_5
+2022-03-17 23:59:21.619 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryAllUsingGET_1
+2022-03-17 23:59:21.622 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_8
+2022-03-17 23:59:22.229 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-03-17 23:59:22.235 [main] INFO  c.l.test.iat.InterfaceAutomationTestApplication - Started InterfaceAutomationTestApplication in 6.835 seconds (JVM running for 7.515)
+2022-03-17 23:59:22.623 [RMI TCP Connection(5)-192.168.16.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-17 23:59:22.623 [RMI TCP Connection(5)-192.168.16.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-03-17 23:59:22.625 [RMI TCP Connection(5)-192.168.16.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms

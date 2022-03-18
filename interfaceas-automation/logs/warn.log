@@ -1,0 +1,132 @@
+2022-03-18 00:00:10.578 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:10.578 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:10.578 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:16.900 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:16.900 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:16.911 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:23.272 [lettuce-nioEventLoop-4-10] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:23.273 [lettuce-nioEventLoop-4-11] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:23.274 [lettuce-nioEventLoop-4-12] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:30.382 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:30.393 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:30.393 [lettuce-nioEventLoop-4-9] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:37.737 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:342)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:772)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:622)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:611)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-18 00:00:37.737 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:342)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:772)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:622)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:611)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-18 00:00:37.737 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.nio.AbstractNioChannel.doClose(AbstractNioChannel.java:502)
+	at io.netty.channel.socket.nio.NioSocketChannel.doClose(NioSocketChannel.java:342)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:772)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.close(DefaultChannelPipeline.java:1352)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeClose(AbstractChannelHandlerContext.java:622)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1200(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$11.run(AbstractChannelHandlerContext.java:611)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-03-18 00:00:43.893 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:43.893 [lettuce-nioEventLoop-4-6] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:43.893 [lettuce-nioEventLoop-4-5] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:54.197 [lettuce-nioEventLoop-4-8] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:54.197 [lettuce-nioEventLoop-4-7] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:00:54.197 [lettuce-nioEventLoop-4-9] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [49.233.54.13:6379]: Connection refused: no further information: /49.233.54.13:6379
+2022-03-18 00:10:21.005 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 00:10:21.317 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 00:12:30.778 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 00:12:31.070 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 00:19:41.317 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 00:19:41.619 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 00:38:19.365 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 00:38:19.661 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 00:48:52.424 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 00:48:52.901 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 02:27:23.223 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 02:27:23.540 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 02:33:53.507 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 02:33:53.868 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 02:34:46.769 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 02:34:47.077 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 19:31:57.669 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 49.233.54.13:6379
+2022-03-18 19:31:57.794 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 19:33:34.055 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is org.springframework.data.redis.connection.PoolException: Could not get a resource from the pool; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 49.233.54.13:6379
+2022-03-18 19:33:34.179 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 19:34:09.248 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 19:34:09.673 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 19:41:54.111 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 19:41:54.664 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:13:40.177 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:13:40.481 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:13:40.542 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+2022-03-18 20:13:40.668 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 20:14:00.824 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:14:01.120 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:14:01.185 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+2022-03-18 20:14:01.417 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 20:14:46.633 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:14:46.928 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:14:46.993 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+2022-03-18 20:14:47.217 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 20:16:01.779 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:16:02.062 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:16:02.126 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+2022-03-18 20:16:02.350 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2022-03-18 20:18:23.787 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:18:24.083 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:23:52.460 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:23:52.746 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:26:27.232 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:26:27.666 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-03-18 20:57:32.803 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-18 20:57:33.265 [main] WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
